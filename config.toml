@@ -2,3 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Cantine'
 theme = "blank"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
