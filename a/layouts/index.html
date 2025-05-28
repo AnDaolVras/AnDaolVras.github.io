@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="/css/style.css">
   <meta charset="UTF-8">
+  {{ partial "head.html" . }}
   <title>{{ .Title }}</title>
 </head>
 <body>
+{{ partial "header.html" . }}
   <h1>{{ .Title }}</h1>
   <div>{{ .Content }}</div>
 </body>
