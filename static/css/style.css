@@ -1,0 +1,32 @@
+header{
+    display: flexbox;
+    background-color: rgba(0,0,0,0.8);
+    margin: -8px;
+    height: 5em;
+}
+
+.container{
+    border: 1px solid pink;
+    text-align: center;
+    .logo{
+        border: 1px solid red;
+    }
+}
+
+.li{
+    display: inline;
+   
+}
+
+ul{
+    border: 1px solid greenyellow ;
+    text-align: center;
+}
+
+.navbar-item{
+    font-size: x-large;
+    border: 1px solid white;   
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
