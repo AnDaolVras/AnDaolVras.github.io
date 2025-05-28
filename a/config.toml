@@ -1,0 +1,25 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Cantine'
+theme = "blank"
+
+
+[[menu.main]]
+  name = "La cantine"
+  url = "/la-cantine"
+   weight = 1
+
+[[menu.main]]
+  name = "Coworking"
+  url = "/coworking"
+   weight = 2
+
+[[menu.main]]
+  name = "Événement"
+  url = "/evenement"
+   weight = 3
+
+[[menu.main]]
+  name = "Podcast"
+  url = "/podcast"
+   weight = 4
