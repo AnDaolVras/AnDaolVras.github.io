@@ -4,8 +4,9 @@ title = 'Cantine'
 theme = "blank"
 
 
-[params]
-logo = "/resources/_gen/images/logo-cantine.png"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 
 [[menu.main]]
