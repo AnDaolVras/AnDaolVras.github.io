@@ -10,20 +10,20 @@ logo = "/resources/_gen/images/logo-cantine.png"
 
 [[menu.main]]
   name = "La cantine"
-  url = "/la-cantine"
+  url = "/"
    weight = 1
 
 [[menu.main]]
   name = "Coworking"
-  url = "/coworking"
+  url = "/page/Coworking/"
    weight = 2
 
 [[menu.main]]
   name = "Événement"
-  url = "/evenement"
+  url = "/page/Evenement"
    weight = 3
 
 [[menu.main]]
   name = "Podcast"
-  url = "/podcast"
+  url = "/page/Podcast"
    weight = 4

@@ -1,5 +1,5 @@
 ---
-title: "Bienvenue"
+title: "Cantine"
 description: "Page d'accueil de mon site Hugo"
 ---
 
