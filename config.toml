@@ -8,6 +8,11 @@ theme = "blank"
   [caches.images]
     dir = ':cacheDir/images'
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+
 
 [[menu.main]]
   name = "La cantine"
