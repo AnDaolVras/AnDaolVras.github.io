@@ -4,9 +4,7 @@
             <div class="navbar-brand">
                 <a href="/" title="home" class="navbar-title">
                     <span class="logo">
-  <img src="/resources/_gen/images/logo-cantine.png" alt="Logo du site" style="height:40px;">
-</span>
-                    
+                     <img src="{{ .Site.Params.logo }}" alt="Logo">
                 </a>
                 {{ range .Site.Menus.social }}
                 <a href="{{ .URL }}" class="navbar-item is-hidden-desktop" title="{{ .Name }}"><span

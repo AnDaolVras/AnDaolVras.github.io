@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
+
+    <div class="coworking-full">
+        <div class="coworking-header">
+            <h2>Coworking</h2>
+        </div>
+        <section class="coworking-content">
+            <h3>POUR QUI</h3>
+            <div class="coworking-description">
+                {{ .Content }}
+            </div>
+            <div class="coworking-underline"></div>
+        </section>
+    </div>
+</body>
+</html>
